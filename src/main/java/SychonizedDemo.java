@@ -1,16 +1,14 @@
 
-import kotlin.Unit;
 import kotlin.collections.CollectionsKt;
-import kotlin.jvm.functions.Function1;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class TestJ {
+public class SychonizedDemo {
 
     public static void main(String[] args) {
-        TestJ testJ = new TestJ();
+        SychonizedDemo testJ = new SychonizedDemo();
         new Thread(() -> {
            while (true){
                testJ.list.add(1);
