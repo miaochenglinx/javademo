@@ -14,9 +14,14 @@ class Delegate {
 }
 
 fun main() {
+   var test = Test()
+    test.string = "lalala"
+    print(test.string)
+
+}
+
+class Test{
     var string by Delegate()
-    string = "lalala"
-    print(string)
 
 }
 
