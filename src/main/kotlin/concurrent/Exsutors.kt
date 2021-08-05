@@ -2,7 +2,6 @@ package concurrent
 
 fun main() {
 
-
 }
 
 class Task{
